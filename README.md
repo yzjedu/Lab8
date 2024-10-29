@@ -5,11 +5,11 @@
 - **Grade: EMRN**
 - **Due: Before Next Lab**
 
-## Problem
+## `Problem`
 Dr. Zee is interested in understanding the probability and distribution of rolling dice. 
 - Create a program to display the distribution of rolls of two dice.
 
-## Purpose
+## `Purpose`
 This lab gives you practice with: 
 
   * Lists
@@ -17,7 +17,7 @@ This lab gives you practice with:
   * Loops 
   * Random numbers
 
-## Details
+## `Details`
 Write a program to simulate rolling a pair of 6-sided dice based on how many times a user requests the dice to be rolled. 
 - Ask the user how many rolls to do (one roll means one pair of dice are rolled). 
 - Every time a pair is rolled, get the sum of the 2 numbers from that roll.
@@ -28,7 +28,7 @@ Write a program to simulate rolling a pair of 6-sided dice based on how many tim
   - Actual results will vary, but you should follow the same style.
 
 
-### Output
+### `Output`
 
 In the output below, the `[2, 8, 11, 11, 15, 15, 17, 9, 7, 4, 1] ` is outputting the number of rolls per potential total. 
 - Your values will likely be different.
@@ -50,7 +50,7 @@ Sum of 11 ****
 Sum of 12 *   
 ```
 
-### Programming Tips
+### `Programming Tips`
 
 * You can use methods from the `random` module such as `random.randint` to simulation a die roll. 
   * Look up how to use this function if you don't remember.
@@ -62,7 +62,7 @@ Sum of 12 *
   * All code must be in a function other than imports. 
     * Use a **_main_** function to coordinate the program flow.
 
-## Design
+## `Design`
 You should use iterative development to build your solution:
 - **Start Small**: Begin by writing a function that rolls one die and test it.
   - Extend it to roll two dice and calculate the sum.
@@ -73,7 +73,7 @@ You should use iterative development to build your solution:
   - This format ensures the sum is always printed as a two-digit number.
 
 
-## Steps:
+## `Steps:`
 1. Make sure you understand the problem
 2. Write your algorithm in `algorithm.md`. Get your lab instructor's approval. 
    - Use functions. `Take turns driving`
